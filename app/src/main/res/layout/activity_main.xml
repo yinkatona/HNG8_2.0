@@ -33,6 +33,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:scaleX="0.9"
+                        android:scaleY="0.9"
                         android:src="@drawable/zuri_i4g"
                         android:clickable="true"/>
                 </LinearLayout>
@@ -86,8 +88,8 @@
             android:id="@+id/hngImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
             android:layout_weight="1"
             android:src="@drawable/hng"
             app:layout_constraintTop_toBottomOf="@+id/displayBtn"
